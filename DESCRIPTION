@@ -7,5 +7,5 @@ Author: Brenton R. Stone <brstone@ufl.edu>
 Maintainer: Brenton R. Stone <brstone@ufl.edu>
 Description: A simple nonparametric method to determine median effective doses (LD50, etc.) from dose-response curves. 
 Imports: isotone
-License: GPL (>=2)
+License: file LICENSE
 URL: https://r-forge.r-project.org/projects/tskarber/
