@@ -1,0 +1,4 @@
+importFrom(isotone,gpava)
+export(tsk)
+export(tsk.default)
+export(tsk.data.frame)
