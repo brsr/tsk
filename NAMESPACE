@@ -1,4 +1,5 @@
-importFrom(isotone,gpava)
 export(tsk)
 export(tsk.default)
 export(tsk.data.frame)
+importFrom(isotone,gpava)
+importFrom(stats, approx, qnorm)
