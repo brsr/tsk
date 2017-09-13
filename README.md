@@ -6,9 +6,29 @@ To install, just type this in your R session:
     install.packages("isotone")
     devtools::install_github(repo="brsr/tsk")
 
+The package contains one function, `tsk`. Type `?tsk` for detailed help on the function. An example:
+
+    > tsk( c(1, 10, 100, 1000), 20, c(0, 3, 17, 20) )
+    $use.log.doses
+    calculations done using the logs of the doses? 
+                                              TRUE 
+    $trim
+    [1] 0
+    $was.smoothed
+    [1] FALSE
+    $LD50
+    [1] 31.62278
+    $gsd
+    geometric standard deviation of LD50 estimate 
+                                         1.296928 
+    $conf.int
+    [1] 18.99717 52.63942
+    attr(,"conf.level")
+    [1] 0.95
+
 This code was written several years ago. It runs and produces valid results, but may not be written in a contemporary R idiom.
 
-This package was formerly located at https://r-forge.r-project.org/projects/tskarber/ . The R-forge project is being kept around to direct existing users (all 5 of them) here. Any future updates will happen on Github.
+This package was formerly located at https://r-forge.r-project.org/projects/tskarber/ . The R-forge project is being kept around to direct any existing users here. Any future updates will happen on Github.
 
 ## Citations
 
