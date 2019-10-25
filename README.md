@@ -3,10 +3,11 @@ Trimmed Spearman-Karber Method. A simple nonparametric method to determine media
 
 To install, just type this in your R session:
 
+    install.packages("devtools")
     install.packages("isotone")
     devtools::install_github(repo="brsr/tsk")
 
-The package contains one function, `tsk`. Type `?tsk` for detailed help on the function. An example:
+The package contains one function, `tsk`. Type `?tsk` in your R terminal for detailed help on the function. An example:
 
     > tsk( c(1, 10, 100, 1000), 20, c(0, 3, 17, 20) )
     $use.log.doses
