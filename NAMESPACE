@@ -1,5 +1,5 @@
 export(tsk)
-export(tsk.default)
-export(tsk.data.frame)
-importFrom(isotone,gpava)
+S3method(tsk, numeric)
+S3method(tsk, data.frame)
+importFrom(isotone, gpava)
 importFrom(stats, approx, qnorm)

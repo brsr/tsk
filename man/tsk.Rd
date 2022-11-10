@@ -1,6 +1,6 @@
 \name{tsk}
 \alias{tsk}
-\alias{tsk.default}
+\alias{tsk.numeric}
 \alias{tsk.data.frame}
 \alias{print.tskresult}
 \title{Trimmed Spearman-Karber Method}
@@ -8,7 +8,7 @@
 dose-response curve using the Trimmed Spearman-Karber method.}
 \usage{
 tsk(...)
-\method{tsk}{default}(x, n, r, control = 0, trim = 0,
+\method{tsk}{numeric}(x, n, r, control = 0, trim = 0,
     conf.level = 0.95, use.log.doses = TRUE,...)
 \method{tsk}{data.frame}(input, control = 0, trim = 0,
     conf.level = 0.95, use.log.doses = TRUE,...)

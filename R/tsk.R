@@ -1,6 +1,6 @@
 tsk <- function (...) UseMethod ("tsk")
 
-tsk.default <-
+tsk.numeric <-
   function (x,n,r, control = 0, trim = 0, conf.level = 0.95,
             use.log.doses = TRUE,...)
   {
