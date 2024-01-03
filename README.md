@@ -1,3 +1,6 @@
+# Notice
+You probably want to use the [ecotoxicology package](https://rdrr.io/cran/ecotoxicology/) instead of this. 
+
 # tsk
 Trimmed Spearman-Karber Method. A simple nonparametric method to determine median effective doses (LD50, etc.) from dose-response curves. This package is based on the paper by Hamilton et al (1977, 1978).
 
